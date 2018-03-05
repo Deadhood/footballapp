@@ -1,0 +1,82 @@
+[
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/German%20Bundesliga%202nd%20Divsion.png",
+            "name": "German Bundesliga 2nd Divsion"
+        },
+        "link": "https://mamahd.tv/9434-FC-Ingolstadt-04-vs-VFL-Bochum-live-stream.html",
+        "time": "19:30",
+        "home": "FC Ingolstadt 04",
+        "away": "VFL Bochum"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/Italian%20Calcio%20League%20Serie%20A.png",
+            "name": "Italian Calcio League Serie A"
+        },
+        "link": "https://mamahd.tv/ac-milan-live-stream.html",
+        "time": "19:45",
+        "home": "AC Milan",
+        "away": "Internazionale Milano"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/English%20Premier%20League.png",
+            "name": "English Premier League"
+        },
+        "link": "https://mamahd.tv/watch-manchester-united-live-stream-free.html",
+        "time": "20:00",
+        "home": "Crystal Palace FC",
+        "away": "Manchester United"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/Spanish%20League%20Primera%20Div.%201.png",
+            "name": "Spanish League Primera Div. 1"
+        },
+        "link": "https://mamahd.tv/9435-Celta-de-Vigo-vs-Las-Palmas-live-stream.html",
+        "time": "20:00",
+        "home": "Celta de Vigo",
+        "away": "Las Palmas"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/UEFA%20Champions%20League.png",
+            "name": "UEFA Champions League"
+        },
+        "link": "https://mamahd.tv/watch-liverpool-live-stream-free.html",
+        "time": "19:45",
+        "home": "Liverpool",
+        "away": "FC Porto"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/UEFA%20Champions%20League.png",
+            "name": "UEFA Champions League"
+        },
+        "link": "https://mamahd.tv/real-madrid-live-stream.html",
+        "time": "19:45",
+        "home": "Paris Saint-Germain",
+        "away": "Real Madrid CF"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/UEFA%20Champions%20League.png",
+            "name": "UEFA Champions League"
+        },
+        "link": "https://mamahd.tv/watch-juventus-live-stream-free.html",
+        "time": "19:45",
+        "home": "Tottenham Hotspur",
+        "away": "Juventus FC"
+    },
+    {
+        "league": {
+            "image": "https://mamahd.tv/images/leagues/UEFA%20Champions%20League.png",
+            "name": "UEFA Champions League"
+        },
+        "link": "https://mamahd.tv/watch-manchester-city-live-stream-free.html",
+        "time": "19:45",
+        "home": "Manchester City",
+        "away": "FC Basel"
+    }
+]
