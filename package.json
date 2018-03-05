@@ -1,0 +1,13 @@
+{
+  "name": "mamahd.tv-parser",
+  "version": "1.0.0",
+  "description": "Parse Mamahd for matches live right now",
+  "main": "app.js",
+  "repository": "git@github.com:Deadhood/mamahd.tv-parser.git",
+  "author": "Payer Ahmed <mdpayer125@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.1.1"
+  }
+}
