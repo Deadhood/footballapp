@@ -16,11 +16,12 @@ async function getMatches (uri) {
           image: url.resolve(uri, limg),
           name: decodeURIComponent(lname)
         }
+        const date = m.parent().prevAll('div[style*=StreamHub]').first().find('h3').text().replace('Schedule for ', '')
         const link = m.attr('href').trim()
         const time = m.find('.digits').text().trim()
         const home = m.find('.description .home span').text().trim()
         const away = m.find('.description .away span').text().trim()
-        return { league, link, time, home, away }
+        return { league, link, time, home, away, date }
       })
     )
   console.log(matches)
