@@ -1,10 +1,10 @@
 {
-  "name": "mamahd.tv-parser",
+  "name": "footballapp",
   "version": "1.0.0",
-  "description": "Parse Mamahd for matches live right now",
+  "description": "Watch football live",
   "main": "app.js",
-  "repository": "git@github.com:Deadhood/mamahd.tv-parser.git",
-  "author": "Payer Ahmed <mdpayer125@gmail.com>",
+  "repository": "git@github.com:Deadhood/footballapp.git",
+  "author": "Fahad Hossain <8bit.demoncoder@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "antd": "^3.2.3",
