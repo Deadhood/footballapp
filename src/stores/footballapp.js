@@ -1,6 +1,7 @@
 import { types as t } from 'mobx-state-tree'
 
-import fetcher from '../utils/findMatches'
+import matchFinder from '../utils/findMatches'
+import streamFinder from '../utils/findStreams'
 
 const Team = t.model('Team', {
   name: t.string,
@@ -22,19 +23,23 @@ const Match = t
   .actions(self => ({
     setStreams (streams) {
       self.streams = [...streams]
+    },
+    getStreams () {
+      streamFinder(self.link, console.log)
     }
   }))
 
 const FootballApp = t
   .model('FootballApp', {
-    matches: t.optional(t.array(Match), [])
+    matches: t.optional(t.array(Match), []),
+    columns: t.optional(t.number, 1)
   })
   .actions(self => ({
     setMatches (matches) {
       self.matches = [...matches.map(x => Match.create(x))]
     },
     findMatches () {
-      fetcher(self)
+      matchFinder(self.setMatches)
     }
   }))
 

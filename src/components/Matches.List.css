@@ -1,0 +1,9 @@
+.ant-list-item {
+  background-color: #37474F !important;
+  border-bottom: 1px solid #263238 !important;
+  cursor: pointer;
+}
+
+.ant-list-item-meta-content * {
+  color: #ECEFF1 !important;
+}

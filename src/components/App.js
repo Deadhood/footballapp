@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import { Layout } from 'antd'
+import { Layout, Row, Col } from 'antd'
 import { inject, observer } from 'mobx-react'
+
+import Matches from './Matches.List'
 
 import './App.css'
 const { Content, Header, Footer } = Layout
@@ -11,9 +13,11 @@ class App extends Component {
       <Layout className='App'>
         <Header className='header'>FootballApp</Header>
         <Content className='content'>
-          <pre>{
-            JSON.stringify(this.props.state.matches, null, 4)
-          }</pre>
+          <Row>
+            <Col span={Math.floor(24 / this.props.state.columns)}>
+              <Matches matches={[...this.props.state.matches]} />
+            </Col>
+          </Row>
         </Content>
         <Footer className='footer'>Copyright © 2018 Deadhood</Footer>
       </Layout>
