@@ -11,7 +11,9 @@ class App extends Component {
       <Layout className='App'>
         <Header className='header'>FootballApp</Header>
         <Content className='content'>
-          <h1>Content goes here</h1>
+          <pre>{
+            JSON.stringify(this.props.state.matches, null, 4)
+          }</pre>
         </Content>
         <Footer className='footer'>Copyright © 2018 Deadhood</Footer>
       </Layout>
@@ -21,7 +23,6 @@ class App extends Component {
   componentDidMount () {
     if (this.props.state.matches.length < 1) {
       this.props.state.findMatches()
-      console.log(this.props.state)
     }
   }
 }
