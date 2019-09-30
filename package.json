@@ -14,7 +14,7 @@
     "mobx-state-tree": "^1.4.0",
     "node-fetch": "^2.6.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.10.1"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.2",
