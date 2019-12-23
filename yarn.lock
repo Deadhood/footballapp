@@ -1037,9 +1037,9 @@ ansi-to-html@^0.6.4:
   dependencies:
     entities "^1.1.1"
 
-antd@^3.26.3:
-  version "3.26.3"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.3.tgz#046747567d25e381b1b298c3a5c5b970ed716a0d"
+antd@^3.26.4:
+  version "3.26.4"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.4.tgz#7caef11896eb9b1ec2b1d8c41c92f7c60ef8e52b"
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
     "@ant-design/icons" "~2.1.1"
@@ -1052,6 +1052,7 @@ antd@^3.26.3:
     css-animation "^1.5.0"
     dom-closest "^0.2.0"
     enquire.js "^2.1.6"
+    is-mobile "^2.1.0"
     lodash "^4.17.13"
     moment "^2.24.0"
     omit.js "^1.0.2"
@@ -2991,6 +2992,10 @@ is-html@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-html/-/is-html-1.1.0.tgz#e04f1c18d39485111396f9a0273eab51af218464"
   dependencies:
     html-tags "^1.0.0"
+
+is-mobile@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/is-mobile/-/is-mobile-2.1.0.tgz#4c0cab72f3358dd9986007389b30729fae80da0b"
 
 is-number@^3.0.0:
   version "3.0.0"
